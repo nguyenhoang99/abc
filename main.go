@@ -89,6 +89,7 @@ type TeachingSchedule struct {
 }
 
 func main() {
+	login()
 	psqlInfo := fmt.Sprintf("host=%s port=%d user=%s "+
 		"password=%s dbname=%s sslmode=disable",
 		host, port, user, password, dbname)
@@ -476,5 +477,8 @@ func checkTimeUpdate(db *sql.DB, start string, end string, teacherId int) bool {
 }
 
 func test() {
+	fmt.Println("hoangg")
+}
+func login() {
 	fmt.Println("hoangg")
 }
