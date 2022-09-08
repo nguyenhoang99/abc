@@ -475,6 +475,6 @@ func checkTimeUpdate(db *sql.DB, start string, end string, teacherId int) bool {
 	return true
 }
 
-func asdasd() {
+func test() {
 	fmt.Println("hoangg")
 }
